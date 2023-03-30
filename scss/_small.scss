@@ -1,0 +1,174 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* BODY  */
+body {
+	font-family: $defaultFont;
+	font-size: 16px;
+	font-weight: $lightWeight;
+    min-width: 320px;
+}
+
+
+/* HEADER  */
+header {
+    background-image: url(../images/bostonHeader.jpeg);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+	padding: .5rem 2vw;
+    height: 20vh;
+	h1 {
+        font-size: 3rem;
+        font-weight: $boldWeight;
+        padding-left: .5rem;
+        color: $primaryColor;
+        color: white;
+    }
+    h2 {
+        font-weight: $lightWeight;
+        font-size: 1.5rem;
+        padding-left: .5rem;
+        color: white;
+    }
+
+} // end header
+
+/* NAVIGATION STUFF GOES HERE  */
+
+
+
+/* MAIN  */
+main {
+    p { padding: 1rem 2%;}
+
+    h1 {font-size: 2rem;}
+
+    .swiper {
+        width: 100%;
+        height: auto;
+    }
+
+    .swiper-wrapper {
+        margin-bottom: 25px;
+    
+
+        p {
+            margin: 0;
+            padding: .4rem 2vw;
+            position: absolute;
+            transform: translateY(-100%);
+            background-color: rgba(0,0,0,0.75);
+            text-align: center;
+            color: white;
+            width: 100%;
+        }
+
+        b {
+            font-weight: $boldWeight;
+        }
+
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+    
+    /* Cards */
+    div.cards {
+        //display: flex;
+        //flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 2vh;
+
+        div {width: 100%;}
+
+        div a {
+            display: block;
+            width: 100%;
+            height: 300px;
+            text-decoration: none;
+            padding: 0 2%;
+            transition: all .5s ease-in;
+
+            i { padding: 2vh 0}
+
+            i, h3 {
+                width: 100%;
+                color: white;
+                font-size: 3rem;
+                text-align: center;
+                margin: auto;
+            }
+        }
+    
+        div:nth-child(1) {
+                background-image: url(../images/card1.jpeg);
+                background-repeat: none;
+                background-size: cover;
+
+                a {
+                    background-color: #091F2F;
+                }
+
+
+                a:hover {
+                    background: none;
+                    text-shadow: 0 0 4px black;
+                }
+            }
+
+        div:nth-child(2) {
+                background-image: url(../images/card2.jpeg);
+                background-repeat: none;
+                background-size: cover;
+
+                a {
+                    background-color: $secondaryColor;
+                }
+
+                a:hover {background: none; text-shadow: 0 0 4px black;}
+            }
+
+        div:nth-child(3) {
+                background-image: url(../images/card3.jpeg);
+                background-repeat: none;
+                background-size: cover;
+                a {
+                    background-color: $menuColor;
+                }
+
+                a:hover {background: none; text-shadow: 0 0 4px black;}
+            }
+
+        div:nth-child(4) {
+                background-image: url(../images/card4.jpeg);
+                background-repeat: none;
+                background-size: cover;
+                a {
+                    background-color: #007A33;
+                }
+
+                a:hover {background: none; text-shadow: 0 0 4px black;}
+            }
+
+    }
+
+}// end main
+
+
+
+/* FOOTER  */
+#footerWrapper {background-color: $primaryColor; }
+footer {
+    font-size: .85rem;
+    padding: 1rem 0;
+    color: #bbb;
+    text-align: center;
+    a{color: #eee;}
+   }

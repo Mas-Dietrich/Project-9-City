@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Boston City</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.css"/>
+
+<!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;500&display=swap" rel="stylesheet">
+
+<!-- Swiper CDN-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+<!-- Font Awesome for Cards -->
+<script src="https://kit.fontawesome.com/35a53caa89.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header>
+        <div>
+		    <h1>Boston City</h1>
+            <h2>Where History Comes Alive</h2>
+        </div>
+	</header>
+</div><!-- end header wrapper -->
+
+    
+    
+<div id="navWrapper">
+    <nav>
+        <button id="hamburgerBtn">&#9776;</button>
+        <ul id="primaryNav">
+            <li><a href="#">Visit</a>
+            <li class="parent"><a href="#">Departments</a>
+                <ul>
+                    <li><a href='#'>Department 1</a></li>
+                    <li><a href='#'>Department 2</a></li>
+                    <li><a href='#'>Department 3</a></li>
+                </ul>
+            </li>
+            <li class="parent"><a href="#">Services</a>
+                <ul>
+                    <li><a href='#'>Service 1</a></li>
+                    <li class="active"><a href='#'>Plan Your Visit</a></li>
+                    <li><a href='#'>Service 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Pay Bills</a></li>
+            <li><a href="#">Meetings</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="images/boston1.jpg" alt="Boston 1">
+                    <p><b>Boston</b>, home of the <b>Celtics!</b></p>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src='images/boston2.jpg' alt="Boston 2">
+                    <p><b>Views</b> for everybody!</p>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="images/boston3.jpg" alt="Boston 3">
+                    <p><b>Beautiful</b> all year round!</p>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="images/boston4.jpg" alt="Boston 4">
+                    <p>Did we mention we also have the <b>Red Socks</b>?</p>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="images/boston5.jpg" alt="Boston 5">
+                    <p>Great <b>neighborhoods</b>, even better <b>neighbors</b>!</p>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- End Slider Container-->
+
+        <h1>Plan Your Visit</h1>
+        <!-- Hover Cards Container-->
+        <div class="cards">
+            <div>
+                <a href="#">
+                    <i class="fa-solid fa-house"></i>
+                    <h3>Places To Stay</h3>
+                </a>
+            </div>
+
+            <div>
+                <a href="#">
+                    <i class="fa-solid fa-person-walking"></i>
+                    <h3>Walk the Red Line</h3>
+                </a>
+            </div>
+
+            <div>
+                <a href="#">
+                    <i class="fa-sharp fa-solid fa-city"></i>
+                    <h3>Pass to The City</h3>
+                </a>
+            </div>
+
+            <div>
+                <a href="#">
+                    <i class="fa-solid fa-utensils"></i>
+                    <h3>Fine Dining</h3>
+                </a>
+            </div>
+        </div>
+        <!--End Hover Cards Container-->
+        
+    </main>
+</div><!-- end main wrapper -->
+    
+<div id="footerWrapper">
+    <footer>
+        <p>2023 &bull; &copy; Mason Dietrich &bull; DGM 2740</p></footer>
+</div> <!-- end footer wrapper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html> 

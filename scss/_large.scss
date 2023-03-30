@@ -1,0 +1,23 @@
+header, nav, main {
+    max-width: 1240px;
+    margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+nav ul li a {
+    font-size: .9rem;
+    padding: .5rem 1.2rem;
+}
+
+/* Header */
+div.cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/*Main Stuff */
+main {
+    div.cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
