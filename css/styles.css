@@ -124,6 +124,7 @@ body {
 header {
   background-image: url(../images/bostonHeader.jpeg);
   background-size: cover;
+  background-color: #091F2F;
   display: grid;
   grid-template-rows: 1fr;
   align-items: center;
@@ -207,7 +208,7 @@ main div.cards div a i, main div.cards div a h3 {
 }
 main div.cards div:nth-child(1) {
   background-image: url(../images/card1.jpeg);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 main div.cards div:nth-child(1) a {
@@ -219,7 +220,7 @@ main div.cards div:nth-child(1) a:hover {
 }
 main div.cards div:nth-child(2) {
   background-image: url(../images/card2.jpeg);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 main div.cards div:nth-child(2) a {
@@ -231,7 +232,7 @@ main div.cards div:nth-child(2) a:hover {
 }
 main div.cards div:nth-child(3) {
   background-image: url(../images/card3.jpeg);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 main div.cards div:nth-child(3) a {
@@ -243,7 +244,7 @@ main div.cards div:nth-child(3) a:hover {
 }
 main div.cards div:nth-child(4) {
   background-image: url(../images/card4.jpeg);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 main div.cards div:nth-child(4) a {
